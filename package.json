@@ -1,0 +1,12 @@
+{
+  "name": "changelog",
+  "version": "0.0.1",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "renovate": "11.11.0"
+  },
+  "renovate": {
+    "extends": ["config:base", "group:all"],
+    "pinVersions": false
+  }
+}
